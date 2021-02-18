@@ -25,10 +25,12 @@ conda env list
 
 conda env create -f environment.yml
 conda create --name envname
+conda create --name envname python=3.8 --no-default-packages
+
 
 conda env export > environment_droplet.yml
 conda remove --name envname --all
 
-source activate <env>
+source activate envname
 
 ```
