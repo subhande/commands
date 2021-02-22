@@ -34,3 +34,16 @@ conda remove --name envname --all
 source activate envname
 
 ```
+
+# GCP Bucket
+
+```
+gsutil -m cp -I gs://bucket-name ./
+```
+
+# Linux 
+
+```
+df -h | grep ^/dev
+```
+
