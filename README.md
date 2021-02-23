@@ -48,6 +48,7 @@ gsutil -m cp -nr gs://bucket-name ./
 df -h | grep ^/dev
 rm -rf folder-name
 rm -rf ~/.local/share/Trash/*
+nohup python -u <your file name>.py >> <your log file>.log &
 
 ```
 
