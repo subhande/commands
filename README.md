@@ -49,6 +49,8 @@ df -h | grep ^/dev
 rm -rf folder-name
 rm -rf ~/.local/share/Trash/*
 nohup python -u <your file name>.py >> <your log file>.log &
+tail -f <your log file>.log
+https://stackoverflow.com/questions/2975624/how-to-run-a-python-script-in-the-background-even-after-i-logout-ssh
 
 ```
 
