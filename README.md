@@ -46,5 +46,8 @@ gsutil -m cp -nr gs://bucket-name ./
 
 ```
 df -h | grep ^/dev
+rm -rf folder-name
+rm -rf ~/.local/share/Trash/*
+
 ```
 
