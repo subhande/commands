@@ -38,7 +38,8 @@ source activate envname
 # GCP Bucket
 
 ```
-gsutil -m cp -I gs://bucket-name ./
+gsutil -m cp -nr gs://bucket-name ./
+
 ```
 
 # Linux 
