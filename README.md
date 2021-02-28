@@ -32,6 +32,8 @@ conda env export > environment_droplet.yml
 conda remove --name envname --all
 
 source activate envname
+conda config --set auto_activate_base false/true
+
 
 ```
 
